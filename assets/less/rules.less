@@ -1,0 +1,30 @@
+ol.rules{
+  counter-reset: myCounter;
+  padding:0;
+
+  li {
+    padding-bottom:15px;
+    text-align:justify;
+    list-style: none;
+    display:flex;
+    align-items:center;
+
+    &::before {
+      counter-increment: myCounter;
+      content:counter(myCounter);
+      color: white;
+      background: #cada3b;
+      display: inline-block;
+      text-align: center;
+      font-weight:bold;
+      font-family:"Bebas Neue Bold";
+      font-size:1.5em;
+      margin: 5px 10px;
+      margin-left: 0;
+      line-height: 40px;
+      width: 40px;
+      flex:none;
+      align-self:stretch;
+    }
+  }
+}

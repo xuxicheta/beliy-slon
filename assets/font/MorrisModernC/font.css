@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'MorrisModernC';
+  src: url('./MorrisModernC.eot');
+  src: url('./MorrisModernC.woff') format('woff'),
+       url('./MorrisModernC.ttf') format('truetype'),
+       url('./MorrisModernC.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
