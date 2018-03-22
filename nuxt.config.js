@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 module.exports = {
   env: {
     baseUrl: 'https://beliyslon-klin.ru/__w/wp-json/wp/v2/'
@@ -23,6 +25,13 @@ module.exports = {
   /*
   ** Build configuration
   */
+  generate: {
+    routes: async function () {
+      const { data: posts }  = await axios.get('https://beliyslon-klin.ru/__w/wp-json/wp/v2/posts?per_page=50');
+      return posts.map(u => `/courses/${u.slug}`);
+    }
+  },
+
   build: {
     vendor: [
       'axios',

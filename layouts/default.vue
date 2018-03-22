@@ -26,8 +26,8 @@ export default {
 </script>
 <style lang="less">
 @import '~assets/less/vars.less';
-@import '~/assets/font/BebasNeue/font.css';
-@import '~/assets/font/MorrisModernC/font.css';
+@import '~/static/font/BebasNeue/font.css';
+@import '~/static/font/MorrisModernC/font.css';
 body {
   overflow-y: scroll;
   margin: 0;
