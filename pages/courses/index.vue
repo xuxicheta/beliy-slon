@@ -30,7 +30,7 @@ export default {
     WordpressContent,
   },
   async asyncData () {
-    const { data } = await axios.get('https://beliyslon-klin.ru/wp-json/wp/v2/posts?per_page=50');
+    const { data } = await axios.get(`${process.env.baseUrl}posts?per_page=50`);
     return {
       posts: data,
     };

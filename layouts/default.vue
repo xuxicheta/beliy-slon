@@ -42,7 +42,7 @@ body {
   margin: 0;
   width: 100%;
   min-height: 100vh;
-  background: url('/bg_allheader.jpg') 50% 0 no-repeat;
+  background: url('/img/bg_allheader.jpg') 50% 0 no-repeat;
 }
 
 .the-content {
@@ -51,6 +51,7 @@ body {
   width: 100%;
   background: #fffbe5;
   padding-top: 30px;
+  font-size: 0.9rem;
 
   h1 {
     font-family: "Bebas Neue Bold";

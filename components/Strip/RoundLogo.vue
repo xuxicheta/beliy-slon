@@ -1,7 +1,7 @@
 <template>
   <div class="roundlogo">
     <nuxt-link to="/">
-      <img src="/roundlogo.png" class="roundlogo_img">
+      <img src="/img/roundlogo.png" class="roundlogo_img">
       <img src="~assets/img/logosvg.svg" class="svglogo_img">
     </nuxt-link>
   </div>

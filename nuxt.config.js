@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    baseUrl: 'https://beliyslon-klin.ru/__w/wp-json/wp/v2/'
+  },
   /*
   ** Headers of the page
   */

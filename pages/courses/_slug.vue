@@ -16,7 +16,7 @@ export default {
   async asyncData ({ params }) {
     const slug = params.slug;
     const type = 'posts';
-    const { data: [data] } = await axios.get(`https://beliyslon-klin.ru/wp-json/wp/v2/${type}?slug=${slug}`);
+    const { data: [data] } = await axios.get(`${process.env.baseUrl}${type}?slug=${slug}`);
     return {
       content: data.content.rendered,
       title:  data.title.rendered,

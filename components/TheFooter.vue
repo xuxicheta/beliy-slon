@@ -8,6 +8,6 @@
   flex: none;
   width: 100%;
   height: 100px;
-  background: url('~assets/img/bg_footer.jpg') no-repeat;
+  background: url('/img/bg_footer.jpg') no-repeat;
 }
 </style>

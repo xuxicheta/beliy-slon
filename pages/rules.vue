@@ -3,7 +3,6 @@
     :slug="slug"
     :link="link"
     :content="content"
-    :title="title"
   />
 </template>
 <script>
@@ -14,7 +13,7 @@ export default {
     WordpressContent,
   },
   async asyncData () {
-    const slug = 'agenda';
+    const slug = 'rules';
     const type = 'pages';
     const { data: [data] } = await axios.get(`${process.env.baseUrl}${type}?slug=${slug}`);
     return {
