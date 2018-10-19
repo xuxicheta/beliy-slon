@@ -54,7 +54,7 @@ body {
   font-size: 0.9rem;
 
   h1 {
-    font-family: "Bebas Neue Bold";
+    font-family: "Bebas Neue";
     font-size: 1.5em;
     background:yellow;
     background: linear-gradient(to right, #fbf30b, #fff);

@@ -1,6 +1,6 @@
 <template>
   <yandex-map
-    :coords="[56.323294, 36.7299924]"
+    :coords="[56.318417, 36.728517]"
     zoom="17"
     style="width: 100%; height: 400px;"
     :cluster-options="{
@@ -23,7 +23,7 @@ export default {
     return {
       placemarks: [
         {
-          coords: [56.323349, 36.729831],
+          coords: [56.318417, 36.728517],
           properties: {}, // define properties here
           options: {}, // define options here
           clusterName: "1",

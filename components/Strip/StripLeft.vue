@@ -9,7 +9,7 @@
     <div class="block-address">
       <span><em>Наш адрес:</em></span>
       <span>
-        <a href="https://yandex.ru/maps/-/CBU0YPfjCA" target="_blank">Бородинский проезд, дом 25/58 <i class="fa fa-map-marker" aria-hidden="true"></i></a>
+        <a href="https://yandex.ru/maps/-/CBBFaAFy-C" target="_blank">ул. Карла Маркса, д. 92 <i class="fa fa-map-marker" aria-hidden="true"></i></a>
       </span>
     </div>
   </div>
